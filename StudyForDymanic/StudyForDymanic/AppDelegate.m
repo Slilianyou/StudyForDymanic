@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
+#import "SnapAndAttachmentViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    ViewController *viewVC = [[ViewController alloc]init];
+    UINavigationController *navi = [[UINavigationController alloc]initWithRootViewController:viewVC];
+    navi.title = @"重力碰撞";
+    
+    SnapAndAttachmentViewController *snapAttachmetVC = [[SnapAndAttachmentViewController alloc]init];
+    UINavigationController *naviSnap = [[UINavigationController alloc]initWithRootViewController:snapAttachmetVC];
+    naviSnap.title = @"吸附and粘附";
+    UITabBarController *tab = [[UITabBarController alloc]init];
+    tab.viewControllers =  @[navi,naviSnap];
+   
+    self.window.rootViewController = tab;
+    [self.window makeKeyAndVisible];
+    return YES;
     return YES;
 }
 

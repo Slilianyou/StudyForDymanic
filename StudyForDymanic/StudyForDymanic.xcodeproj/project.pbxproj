@@ -10,9 +10,9 @@
 		7B022AC11D7FB2B3002BEC02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AC01D7FB2B3002BEC02 /* main.m */; };
 		7B022AC41D7FB2B3002BEC02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AC31D7FB2B3002BEC02 /* AppDelegate.m */; };
 		7B022AC71D7FB2B3002BEC02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AC61D7FB2B3002BEC02 /* ViewController.m */; };
-		7B022ACA1D7FB2B3002BEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B022AC81D7FB2B3002BEC02 /* Main.storyboard */; };
 		7B022ACC1D7FB2B3002BEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B022ACB1D7FB2B3002BEC02 /* Assets.xcassets */; };
 		7B022ACF1D7FB2B3002BEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B022ACD1D7FB2B3002BEC02 /* LaunchScreen.storyboard */; };
+		7B022AD81D7FE41E002BEC02 /* SnapAndAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AD71D7FE41E002BEC02 /* SnapAndAttachmentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,11 @@
 		7B022AC31D7FB2B3002BEC02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B022AC51D7FB2B3002BEC02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7B022AC61D7FB2B3002BEC02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7B022AC91D7FB2B3002BEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B022ACB1D7FB2B3002BEC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B022ACE1D7FB2B3002BEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B022AD01D7FB2B3002BEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B022AD61D7FE41E002BEC02 /* SnapAndAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapAndAttachmentViewController.h; sourceTree = "<group>"; };
+		7B022AD71D7FE41E002BEC02 /* SnapAndAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapAndAttachmentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +63,8 @@
 				7B022AC31D7FB2B3002BEC02 /* AppDelegate.m */,
 				7B022AC51D7FB2B3002BEC02 /* ViewController.h */,
 				7B022AC61D7FB2B3002BEC02 /* ViewController.m */,
-				7B022AC81D7FB2B3002BEC02 /* Main.storyboard */,
+				7B022AD61D7FE41E002BEC02 /* SnapAndAttachmentViewController.h */,
+				7B022AD71D7FE41E002BEC02 /* SnapAndAttachmentViewController.m */,
 				7B022ACB1D7FB2B3002BEC02 /* Assets.xcassets */,
 				7B022ACD1D7FB2B3002BEC02 /* LaunchScreen.storyboard */,
 				7B022AD01D7FB2B3002BEC02 /* Info.plist */,
@@ -138,7 +140,6 @@
 			files = (
 				7B022ACF1D7FB2B3002BEC02 /* LaunchScreen.storyboard in Resources */,
 				7B022ACC1D7FB2B3002BEC02 /* Assets.xcassets in Resources */,
-				7B022ACA1D7FB2B3002BEC02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,20 +153,13 @@
 				7B022AC71D7FB2B3002BEC02 /* ViewController.m in Sources */,
 				7B022AC41D7FB2B3002BEC02 /* AppDelegate.m in Sources */,
 				7B022AC11D7FB2B3002BEC02 /* main.m in Sources */,
+				7B022AD81D7FE41E002BEC02 /* SnapAndAttachmentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B022AC81D7FB2B3002BEC02 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B022AC91D7FB2B3002BEC02 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B022ACD1D7FB2B3002BEC02 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

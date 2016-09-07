@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+
+
 @interface ViewController ()
 {
     UIDynamicAnimator * _animator; // 物理仿真器
@@ -15,19 +17,6 @@
     UICollisionBehavior * _collisionBehavior; // 碰撞行为
     UIView *  _view; // 模拟运动的视图对象（模拟运动的物体）
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @end
@@ -55,22 +44,13 @@
     
     
     
-    
-    
-    
-    
-    
-    
-    
-
-    
-    
-    
-    
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
-
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    [_animator removeAllBehaviors];
+}
 //TODO:模拟多个物体掉落
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
