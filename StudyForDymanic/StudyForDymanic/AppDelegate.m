@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "SnapAndAttachmentViewController.h"
+#import "TestDymanic.h"
+#import "NiuDunBaiViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -26,8 +29,17 @@
     SnapAndAttachmentViewController *snapAttachmetVC = [[SnapAndAttachmentViewController alloc]init];
     UINavigationController *naviSnap = [[UINavigationController alloc]initWithRootViewController:snapAttachmetVC];
     naviSnap.title = @"吸附and粘附";
+    
+    TestDymanic *testVC = [[TestDymanic alloc]init];
+    UINavigationController *naviTest = [[UINavigationController alloc]initWithRootViewController:testVC];
+    naviTest.title = @"动力特效";
+    
+    NiuDunBaiViewController *baiVC = [[NiuDunBaiViewController alloc]init];
+    UINavigationController *baiNaiv = [[UINavigationController alloc]initWithRootViewController:baiVC];
+    baiNaiv.title = @"牛顿摆";
+    
     UITabBarController *tab = [[UITabBarController alloc]init];
-    tab.viewControllers =  @[navi,naviSnap];
+    tab.viewControllers =  @[navi,naviSnap,naviTest,baiNaiv];
    
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];

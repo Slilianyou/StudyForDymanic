@@ -13,6 +13,13 @@
 		7B022ACC1D7FB2B3002BEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B022ACB1D7FB2B3002BEC02 /* Assets.xcassets */; };
 		7B022ACF1D7FB2B3002BEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B022ACD1D7FB2B3002BEC02 /* LaunchScreen.storyboard */; };
 		7B022AD81D7FE41E002BEC02 /* SnapAndAttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AD71D7FE41E002BEC02 /* SnapAndAttachmentViewController.m */; };
+		7B022ADB1D800234002BEC02 /* TestDymanic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022ADA1D800234002BEC02 /* TestDymanic.m */; };
+		7B022ADE1D80042E002BEC02 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B022ADD1D80042E002BEC02 /* CoreMotion.framework */; };
+		7B022AE21D800694002BEC02 /* UIView+Dymanic.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AE11D800694002BEC02 /* UIView+Dymanic.m */; };
+		7B022AE41D810C3C002BEC02 /* 070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B022AE31D810C3C002BEC02 /* 070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png */; };
+		7B022AE71D810D07002BEC02 /* NiuDunBaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AE61D810D07002BEC02 /* NiuDunBaiViewController.m */; };
+		7B022AEB1D810E0F002BEC02 /* QiuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AEA1D810E0F002BEC02 /* QiuView.m */; };
+		7B022AEE1D811182002BEC02 /* NewtonsCradle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B022AED1D811182002BEC02 /* NewtonsCradle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,18 @@
 		7B022AD01D7FB2B3002BEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B022AD61D7FE41E002BEC02 /* SnapAndAttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapAndAttachmentViewController.h; sourceTree = "<group>"; };
 		7B022AD71D7FE41E002BEC02 /* SnapAndAttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapAndAttachmentViewController.m; sourceTree = "<group>"; };
+		7B022AD91D800234002BEC02 /* TestDymanic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestDymanic.h; path = StudyForDymanic/TestDymanic.h; sourceTree = SOURCE_ROOT; };
+		7B022ADA1D800234002BEC02 /* TestDymanic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestDymanic.m; path = StudyForDymanic/TestDymanic.m; sourceTree = SOURCE_ROOT; };
+		7B022ADD1D80042E002BEC02 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7B022AE01D800694002BEC02 /* UIView+Dymanic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Dymanic.h"; sourceTree = "<group>"; };
+		7B022AE11D800694002BEC02 /* UIView+Dymanic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Dymanic.m"; sourceTree = "<group>"; };
+		7B022AE31D810C3C002BEC02 /* 070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png"; sourceTree = "<group>"; };
+		7B022AE51D810D07002BEC02 /* NiuDunBaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NiuDunBaiViewController.h; sourceTree = "<group>"; };
+		7B022AE61D810D07002BEC02 /* NiuDunBaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NiuDunBaiViewController.m; sourceTree = "<group>"; };
+		7B022AE91D810E0F002BEC02 /* QiuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QiuView.h; sourceTree = "<group>"; };
+		7B022AEA1D810E0F002BEC02 /* QiuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QiuView.m; sourceTree = "<group>"; };
+		7B022AEC1D811182002BEC02 /* NewtonsCradle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradle.h; sourceTree = "<group>"; };
+		7B022AED1D811182002BEC02 /* NewtonsCradle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B022ADE1D80042E002BEC02 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +79,8 @@
 		7B022ABE1D7FB2B3002BEC02 /* StudyForDymanic */ = {
 			isa = PBXGroup;
 			children = (
+				7B022AE81D810D0F002BEC02 /* 牛顿摆 */,
+				7B022ADC1D8003D7002BEC02 /* TestDymanic */,
 				7B022AC21D7FB2B3002BEC02 /* AppDelegate.h */,
 				7B022AC31D7FB2B3002BEC02 /* AppDelegate.m */,
 				7B022AC51D7FB2B3002BEC02 /* ViewController.h */,
@@ -68,6 +90,7 @@
 				7B022ACB1D7FB2B3002BEC02 /* Assets.xcassets */,
 				7B022ACD1D7FB2B3002BEC02 /* LaunchScreen.storyboard */,
 				7B022AD01D7FB2B3002BEC02 /* Info.plist */,
+				7B022ADF1D800605002BEC02 /* Frameworks */,
 				7B022ABF1D7FB2B3002BEC02 /* Supporting Files */,
 			);
 			path = StudyForDymanic;
@@ -79,6 +102,40 @@
 				7B022AC01D7FB2B3002BEC02 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B022ADC1D8003D7002BEC02 /* TestDymanic */ = {
+			isa = PBXGroup;
+			children = (
+				7B022AE31D810C3C002BEC02 /* 070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png */,
+				7B022AD91D800234002BEC02 /* TestDymanic.h */,
+				7B022ADA1D800234002BEC02 /* TestDymanic.m */,
+				7B022AE01D800694002BEC02 /* UIView+Dymanic.h */,
+				7B022AE11D800694002BEC02 /* UIView+Dymanic.m */,
+			);
+			path = TestDymanic;
+			sourceTree = "<group>";
+		};
+		7B022ADF1D800605002BEC02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B022ADD1D80042E002BEC02 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7B022AE81D810D0F002BEC02 /* 牛顿摆 */ = {
+			isa = PBXGroup;
+			children = (
+				7B022AE51D810D07002BEC02 /* NiuDunBaiViewController.h */,
+				7B022AE61D810D07002BEC02 /* NiuDunBaiViewController.m */,
+				7B022AE91D810E0F002BEC02 /* QiuView.h */,
+				7B022AEA1D810E0F002BEC02 /* QiuView.m */,
+				7B022AEC1D811182002BEC02 /* NewtonsCradle.h */,
+				7B022AED1D811182002BEC02 /* NewtonsCradle.m */,
+			);
+			name = "牛顿摆";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +197,7 @@
 			files = (
 				7B022ACF1D7FB2B3002BEC02 /* LaunchScreen.storyboard in Resources */,
 				7B022ACC1D7FB2B3002BEC02 /* Assets.xcassets in Resources */,
+				7B022AE41D810C3C002BEC02 /* 070f1d32-c0b7-3ebc-b18d-7a6d3b0686fd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B022AC71D7FB2B3002BEC02 /* ViewController.m in Sources */,
+				7B022ADB1D800234002BEC02 /* TestDymanic.m in Sources */,
+				7B022AE21D800694002BEC02 /* UIView+Dymanic.m in Sources */,
 				7B022AC41D7FB2B3002BEC02 /* AppDelegate.m in Sources */,
 				7B022AC11D7FB2B3002BEC02 /* main.m in Sources */,
+				7B022AEE1D811182002BEC02 /* NewtonsCradle.m in Sources */,
 				7B022AD81D7FE41E002BEC02 /* SnapAndAttachmentViewController.m in Sources */,
+				7B022AEB1D810E0F002BEC02 /* QiuView.m in Sources */,
+				7B022AE71D810D07002BEC02 /* NiuDunBaiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

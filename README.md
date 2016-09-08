@@ -4,11 +4,23 @@ Dynamic Dome 学习
 UIDynamic（NS_CLASS_AVAILABLE_IOS(7_0)）动力学框架 类似 Box2d之类的物理引擎，模拟现实生活中的运动，它是通过添加行为的方式让动力学元素参与运动。</br>
 iOS7.0提供的动力学行为 ：</br>
 UIGravityBehavior     重力行为</br>
+{</br>
+这是UIGravityBehavior的四个属性，</br>
+items是模拟重力行为的模拟对象数组；</br>
+angle重力矢量方向与坐标轴x的夹角，例如垂直向下：π/2；</br>
+magnitude是重力加速度的倍数；​</br>
+vector看结构就是一个点，从坐标原点向这个点连线就是一个矢量，也就是重力的方向，默认是(0.0, 1.0)。</br>这个属性的数据量很丰富，由这个点向X轴和Y轴分别做垂线构成了一个矩形，对角线与X轴夹角就是重力加速度的方向，即angle，对角线的长度就是重力加速度的值，即magnitude。</br>也就是说我们完全可以用gravityDirection变量确定angle和magnitude的值，反之用angle和magnitude也可以确定gravityDirection的值。</br>
+}</br>
 UICollisionBehavior   碰撞行为</br>
 UIAttachmentBehavior  附着行为</br>
 UISnapBehavior        吸附行为</br>
 UIPushBehavior        推行为</br>
-UIDynamicBehavior     动力学元素行为</br>
+UIDynamicItemBehavior     动力学元素行为</br>
+｛</br>
+   itemBehavior.resistance = 1.f;  摩擦阻力</br>
+   itemBehavior.elasticity = 1.0;  弹性阻力</br>
+   itemBehavior.allowsRotation = NO;  
+｝</br>
 
 一、重力行为和碰撞行为</br>
 UIDynamicAnimator 物理仿真器</br>
@@ -38,6 +50,8 @@ _collision.translatesReferenceBoundsIntoBoundary = YES;         //边界检测</
 二、吸附行为UISnapBehavior 和附着行为 UIAttachmentBehavior</br>
 代码如dome</br>
 
+三、加速计
+四、陀螺仪
 
 
 
@@ -47,11 +61,12 @@ _collision.translatesReferenceBoundsIntoBoundary = YES;         //边界检测</
 
 
 
-
-
-
-
-
+//</br>
+locationInView和translationInView的区别</br>
+1  translationInView是UIPanGestureRecognizer下面的一个属性</br>
+locationInView则是UIGestureRecognizer下面的属性</br>
+2  translationInView 在指定的坐标系中移动</br>
+locationInView 通常是指单点位置的手势 得到当前点击下在指定视图中位置的坐标</br>
 
 
 
